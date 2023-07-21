@@ -122,6 +122,20 @@ main{
     margin: 10px 0px 10px 0px;
 }
 
+/* Sponsor styling */
+.sponsor{
+    text-align: center;
+    margin-top: 3rem;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+
+
+
 
 
 
@@ -163,6 +177,11 @@ main{
     }
     .fact-card .card{
         gap: 10px;
+    }
+    .sponsor-img{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
     }
 }
 
